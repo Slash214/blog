@@ -10,17 +10,18 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/index.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">加载ING...</div>
     <script>
       window.$docsify = {
         name: "🌈大羊全栈之路",
-        repo: "https://github.com/Slash214",
+        repo: "https://github.com/Slash214/blog/tree/master/docs",
+        nameLink: "https://yjpsix.com/",
         coverpage: true,
         loadSidebar: true,
-        routerMode: 'history',
+        routerMode: "history",
         progress: {
           position: "top",
           color: "var(--theme-color,#42b983)",
@@ -32,13 +33,45 @@
           color: "rgb(90,90,90)",
           language: "chinese",
         },
+        search: {
+          paths: "auto",
+          placeholder: "输入关键词搜索",
+          noData: "找不到结果",
+          depth: 3,
+        },
+        plugins: [
+        // Copyright ©2021 爱呵呵资源网站 All rights reserved 蜀ICP备19024285号
+          function (hook) {
+            var footer = [
+              "<hr/>",
+              '<footer style="text-align: center">',
+              "<p>",
+              '<img src="https://cdn.jsdelivr.net/gh/itwanger/toBeBetterJavaer/images/logo-01.png" alt="全栈工程师" height="150px">',
+              "</p>",
+              '<span><a href="https://beian.miit.gov.cn/" style="font-size:80%;color:#939393;" target="_blank">蜀ICP备19024285号-3</a>',
+              "<p>",
+              'Copyright © 2021 <span><a href="" style="font-size:14px;color:blue;" target="_blank">大羊</a></span> , All rights reserved.',
+              "</p>",
+            ].join(""); 
+            hook.afterEach(function (html) {
+              var isReadme = window.location.href.indexOf("README");
+              if (isReadme === -1) {
+                // return header + html + footer;
+                return html + footer;
+              } else {
+                return html + footer;
+              }
+            });
+          },
+        ],
       };
     </script>
     <!-- Docsify v4 -->
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js "></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   </body>
 </html>

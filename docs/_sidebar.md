@@ -1,19 +1,13 @@
-**前端**
+**基础知识**
+- [HTML](document/basic/html.md)
+- [CSS3](document/basic/css.md)
+- [JavaScript](document/basic/js.md)
+- [TypeScrit](document/test.md)
 
-- [我开发的测试](document/test.md)
-- [我开发的测试](document/test.md)
-- [我开发的测试](document/test.md)
-- [我开发的测试](document/test.md)
-- [我开发的测试](document/test.md)
-- [我开发的测试](document/test.md)
-- [我开发的测试](document/test.md)
-
-**Node**
-
-- [开发中](document/test.md)
+**GIT**
+- [基础配置](document/git/index.md)
 
 **Mysql**
-
 - [开发中](document/test.md)
 
 **Angular**
@@ -29,13 +23,12 @@
 
 
 **数组**
-
 - [开发中](document/test.md)
 
 **常用工具类**
 
-- [开发中](docs/basic-grammar/basic-data-type.md)
+- [开发中](document/test.md)
 
--  **其他：**
+**其他：**
 
-- [公众号](docs/bottom.md)
+- [公众号](document/bottom.md)

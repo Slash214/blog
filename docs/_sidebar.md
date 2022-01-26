@@ -4,6 +4,9 @@
 - [JavaScript](document/basic/js.md)
 - [TypeScrit](document/test.md)
 
+**数组**
+- [JavaScript数组处理方法](document/array/index.md)
+
 **GIT**
 - [基础配置](document/git/index.md)
 
@@ -21,10 +24,6 @@
 
 **ES6-ES2020 语法**
 
-- [开发中](document/test.md)
-
-
-**数组**
 - [开发中](document/test.md)
 
 **常用工具类**

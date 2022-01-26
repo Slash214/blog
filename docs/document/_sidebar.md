@@ -10,8 +10,10 @@
 **Mysql**
 - [开发中](document/test.md)
 
-**Angular**
+**踩坑记录**
+- [开发中](document/test.md)
 
+**Angular**
 - [开发中](document/test.md)
 
 **开源项目**
@@ -21,9 +23,8 @@
 
 - [开发中](document/test.md)
 
-
 **数组**
-- [开发中](document/test.md)
+- [JavaScript方法合集](document/array/index.md)
 
 **常用工具类**
 

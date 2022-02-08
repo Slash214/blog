@@ -4,6 +4,9 @@
 - [JavaScript](document/basic/js.md)
 - [TypeScrit](document/test.md)
 
+**CSS样式**
+- [常用Code](document/css/code.md)
+
 **JavaScript**
 - [数组Array](document/array/index.md)
 - [对象Object](document/object/index.md)

@@ -11,6 +11,14 @@
 - [数组Array](document/array/index.md)
 - [对象Object](document/object/index.md)
 
+**踩坑记录**
+- [Vue](document/bug/vue.md)
+- [Angular](document/bug/angular.md)
+
+**开源项目**
+- [网易云音乐](document/test.md)
+- [新浪微博](document/test.md)
+
 **ES语法**
 - [开发中](document/es/index.md)
 
@@ -20,19 +28,8 @@
 **Mysql**
 - [开发中](document/test.md)
 
-**踩坑记录**
-- [开发中](document/test.md)
-
-**Angular**
-- [开发中](document/test.md)
-
-**开源项目**
-- [开发中](document/test.md)
-
 **常用工具类**
-
 - [开发中](document/test.md)
 
 **其他：**
-
 - [公众号](document/bottom.md)

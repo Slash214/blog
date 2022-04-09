@@ -172,7 +172,7 @@ li input[type='checkbox'] {
 }
 .github-corner:hover .octo-arm {
   -webkit-animation: octocat-wave 560ms ease-in-out;
-          animation: octocat-wave 560ms ease-in-out;
+  animation: octocat-wave 560ms ease-in-out;
 }
 .github-corner svg {
   color: #fff;
